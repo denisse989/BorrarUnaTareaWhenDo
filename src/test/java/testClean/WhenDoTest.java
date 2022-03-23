@@ -15,7 +15,7 @@ public class WhenDoTest {
     CreateTaskScreen createTaskScreen=new CreateTaskScreen();
     TaskScreen taskScreen=new TaskScreen();
     @Test
-    public void newTaskTest() throws MalformedURLException {
+    public void deleteTaskTest() throws MalformedURLException {
         //Crear Tarea
         listScreen.addButton.click();
         createTaskScreen.nameText.click();
